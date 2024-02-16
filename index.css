@@ -246,6 +246,7 @@
     width: 50%;
 }
 .construction-right-container{
+    padding-right: 15px;
     width: 50%;
 }
 
@@ -409,3 +410,14 @@
     border-bottom: 2px solid white;
     width: 20px;
 } */
+
+
+.team-member-heading p{
+    color: #ffb142;
+    font-size: 2rem;
+
+}
+.team-member-heading h2{
+    font-size: 3rem;
+    width: 150px;
+}
