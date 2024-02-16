@@ -114,6 +114,7 @@
     left: -150px;
     object-fit: cover;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 50px #111;
 }
 .our-services{
     /* font-size: 1.8rem; */
@@ -126,7 +127,7 @@
 }
 .services{
     padding: 100px 0px;
-    width: 100%;
+    /* width: 100%; */
     /* padding-left: 100px; */
 }
 /* .mentioned-services{
@@ -138,7 +139,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 .image-div{
     background: url(./villa/index-img-01-585x585.jpg) no-repeat center/cover;
@@ -411,13 +412,60 @@
     width: 20px;
 } */
 
-
+.team-member-heading{
+    padding-bottom: 30px;
+}
 .team-member-heading p{
     color: #ffb142;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
 .team-member-heading h2{
     font-size: 3rem;
-    width: 150px;
+    padding-top: 5px;
+}
+.team-member-flex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.left-side-img-container{
+    width: 50%;
+}
+.team-member-1{
+    /* background: url(./villa/box-dina-img-01.jpg) no-repeat center/cover; */
+    object-fit: fill;
+    width: 100%;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.team-member-2{
+    /* background: url(./villa/box-dina-img-01.jpg) no-repeat center/cover; */
+    object-fit: fill;
+    width: 100%;
+    /* padding: 20px 0px; */
+    position: relative;
+}
+
+.designation{
+    background-color: #fff;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    /* padding: 50px 100px 30px 50px; */
+    /* width: 460px; */
+    width: 535px;
+    height: 120px;
+    padding: 30px;
+
+}
+
+.designation h3{
+    font-size: 1.5rem;
+}
+.designation p{
+    padding-top: 10px;
 }
