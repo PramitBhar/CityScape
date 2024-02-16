@@ -142,11 +142,15 @@
 }
 .image-div{
     background: url(./villa/index-img-01-585x585.jpg) no-repeat center/cover;
+    /* background-size: contain; */
+    object-fit: fill;
     width: 50%;
     
 }
 .text-side{
+    /* padding: 100px 80px; */
     width: 50%;
+    padding-right: 15px;
 }
 .text-side-para-1,.text-side-para-2{
     /* width: 100%; */
@@ -154,17 +158,25 @@
 }
 
 .text-side-para-1{
-    font-size: 1.2rem;
-    padding: 60px 80px;
+    font-size: 1rem;
+    padding:60px 90px;
     color: grey;
-    text-align: justify;
-    /* line-height: 20px; */
+    /* text-align: justify; */
+    line-height: 30px;
+}
+.text-side-para-1 p{
+    width: 400px;
 }
 .text-side-para-2{
-    background-color: gold;
-    padding: 100px 80px;
+    background-color: #ffb142;
+    padding: 100px 90px;
     font-size: 1.5rem;
     font-weight: 600;
+    line-height: 30px;
+}
+.text-side-para-2 p{
+    width: 353px;
+
 }
 
 .solidnav{
